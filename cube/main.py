@@ -4,6 +4,9 @@ from shapes import Cube
 
 pygame.init()
 screen = pygame.display.set_mode((1280, 720))
+pygame.display.set_caption("3D Cube Engine")
+icon_surface = pygame.image.load("assets/cube_logo.png")
+pygame.display.set_icon(icon_surface)
 screen_center = (screen.get_width() / 2, screen.get_height() / 2)
 clock = pygame.time.Clock()
 running = True
