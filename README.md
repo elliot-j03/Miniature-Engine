@@ -23,11 +23,12 @@ Then, install the required modules. To do this you need to activate the python v
 ```console
 source .venv/Scripts/activate
 ```
-and use pip in download what you need
+and use pip to download what you need
 ```console
 pip install -r requirement.txt
 ```
-Now you should be set up correctly and able to run the mini engine. To run the program you need to run main.py
+Now you should be set up correctly and able to run the mini engine. To start the program you need to run **main.py**. You can do this by either running it in your editor or using the terminal as shown below
 ```console
 python path/to/main.py
 ```
+Now you should have a working engine :)
