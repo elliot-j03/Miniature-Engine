@@ -25,7 +25,7 @@ source .venv/Scripts/activate
 ```
 and use pip to download what you need
 ```console
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 Now you should be set up correctly and able to run the mini engine. To start the program you need to run **main.py**. You can do this by either running it in your editor or using the terminal as shown below
 ```console
